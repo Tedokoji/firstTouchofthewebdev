@@ -1,0 +1,173 @@
+#fakebook-navbar{
+    background-color: rgb(37, 34, 34);
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+#fakeicon{
+    width:55px;
+    height: 45px;
+    position: fixed;
+    top: 10px;
+    left: 8px;
+    cursor: pointer;
+}
+#fakesb{
+    width:280px;  
+    position: fixed;
+    top: 8px;
+    cursor: text;
+    left: 60px;
+}
+#navicons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 50px;
+    top: -5px;
+    left: 30%;
+    position:fixed;
+    list-style: none;
+    transform: scale(0.8);
+   
+}
+#navavt{
+    width:140px;
+    height: 45px;
+    position: fixed;
+    top: 0px;
+    left: -100px;
+    cursor: pointer;
+    border-radius:50px;
+    background-color:rgb(58, 54, 54);
+    display: flex;
+}
+#navavt img{
+    border-radius:80px;
+    position:relative;
+    left:4%;
+}
+#navavt p{    
+    position:relative;
+    left:7%;
+    top:-15%;
+    text-align: center;
+    justify-content: center;
+    color:rgb(82, 134, 231);
+    text-shadow: 0 0 50px blue;
+    font-size: 19px;
+}
+#navicons li:hover,#moreicons li:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+#moreicons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    height: 50px;
+    top: -5px;
+    right: 2vw;
+    position:fixed;
+    list-style: none;
+    transform: scale(0.8);
+}
+#fakebook-wallpaper-container{
+    background: linear-gradient(rgb(182, 182, 182),rgb(0, 0, 0));
+    height: 580px;
+    display: flex;
+}
+#wallpaper{
+    width: 75vw;
+    height: 30vh;  
+    border-radius:10px;
+    margin-top: 6vh;
+    margin-left: 12vw;
+    background-position: center;
+    background-size:cover;
+    background-image: url("Nao.jpg");
+  position: relative;
+  order:2;
+  cursor: pointer;
+}
+#wallpaper-change-button{
+    background-color: white;
+    border-radius: 10px;
+    width:160px;
+    height:35px;
+    position:absolute;
+    top:75%;
+    left:78%;
+    cursor:pointer;
+    display:flex;
+}
+#wallpaper-change-button img{
+    transform: scale(0.9);
+    position: absolute;
+    top:5px;
+}
+#wallpaper-change-button:hover{
+    background-color: rgb(199, 191, 191);
+}
+#wallpaper-change-button h4{
+    transform: scale(0.8);
+    position: absolute;
+    top:-11px;
+    padding-left:20px;
+
+}
+#wallpaper-main-avatar-container{
+    width: 180px;
+    height: 160px;
+    margin-top:-30px;
+    margin-left:0.001%;
+    left:20%;
+    border-radius:80000px;
+    border: 5px solid rgb(0, 0, 0);
+    background-size:cover;
+    background-image: url("Naoavt.png");
+    display:flex;
+    cursor: pointer;
+    order: 1;
+    position: relative;
+}
+.camavtcontainer{
+    background-color: rgb(58, 54, 54);
+    width:50px;
+    height: 45px;
+    position:relative;
+    top:120px;
+    left:130px;
+    border-radius: 88px;
+    transform: scale(0.9);
+}
+#camavt{
+    position: absolute;
+    transform: scale(0.2);
+    color:white;
+    top:-43px;
+    left:-39px;
+    cursor:pointer;
+}
+#myH1{
+    color:white;
+    margin-left:150px;
+    margin-top:15px;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+
+}
+#theother{
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+
